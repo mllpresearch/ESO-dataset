@@ -1,8 +1,10 @@
 # ESO
-ESO dataset v1.0
+ESO dataset v1.0  
 www.mllp.upv.es/eso-dataset
 
+A English-language speech corpus of the oncology domain for ASR training and benchmarking and MT benchmarking.
 
+Keywords: automatic speech recognition; speech corpus; speech data filtering; speech data verbatimization; streaming ASR.
 
 README CONTENTS
 ---------------
@@ -11,10 +13,10 @@ README CONTENTS
 - [Get the data](#get-the-data)
 - [Corpus structure and contents](#corpus-structure-and-contents)
 - [Acknowledgements](#acknowledgements)
+- [Legal disclaimers](#legal-disclaimers)
+- [Licence](#licence)
 <!--- - [Citation](#citation) Açò va baix d'Overview !!! --->
 <!--- - [Extended description](#extended-description) --->
-<!--- - [Legal disclaimers](#legal-disclaimers) --->
-<!--- - [Licence](#licence) --->
 
 
 OVERVIEW
@@ -26,13 +28,8 @@ The ESO dataset includes:
 
 <!--- * 287 hours of English-language manually transcribed speech data in the oncology domain. --->
 * 745 hours of English-language speech data in the oncology domain, of which 287 hours are manually transcribed data.
-* 3 full sets of timed transcriptions: official non-verbatim transcriptions,
-  automatically noise-filtered transcriptions and automatically verbatimized
-  transcriptions.
-* 18 hours of speech data with both manually revised verbatim transcriptions
-  and official non-verbatim transcriptions, split in 2 independent
-  validation-evaluation partitions for 2 realistic ASR tasks (with vs. without previous
-  knowledge of the speaker).
+* 3 full sets of timed manual transcriptions.
+* Both, dev and test sets with temporally aligned manual translations.
 
 
 <!--- CITATION
@@ -46,14 +43,14 @@ GET THE DATA
 Download the full ESO speech and text corpus from:
 
 https://www.mllp.upv.es/eso-dataset/eso_v1.0.tar.gz  
-Size: 48 GiB  
-<!--- SHA-256 checksum: 4d360170ef8f1d1ece55566eda4211274b27328427a3443061f43d80d3346e74 --->
+Size: 41 GiB  (compressed file)
+SHA-256 checksum: d374d1c5f27ef80903681ce517d22db334f62d0db7dc79f0e587ae292a289787
 
 
 CORPUS STRUCTURE AND CONTENTS
 -----------------------------
 
-Total size: 48 GiB
+Total size: 48 GiB (uncompressed)
 
 The data is organized in 3 main directories: "train" (training data), "dev"
 (validation data) and "test" (evaluation data).
@@ -61,7 +58,11 @@ Both "dev" and "test" directories contain one subdirectory for each sample
 and a list containing the IDs of the samples of the set. Each sample directory contains
 the audio file, the slides and two subdirectories: the first one contains the transcription
 data, with the transcription in plain-text format, the aligned transcription in srt format,
-and the aligned transcription in srt format but sentence segmented.
+and the aligned transcription in srt format but sentence segmented. On the other hand, the
+manual_translation subdirectory contains un folder for each target language (de, es, fr, sl;
+according to ISO 639-1 standard), in which we can find the original manual translation,
+the source and target language files temporally aligned and the file with the timestamps
+for that language pair.
 The "train" directory contain one subdirectory for each sample and one list
 for each subset of data as follows:
 * train_audios.lst: contains the IDs of the training samples.
@@ -107,14 +108,20 @@ subdirectories:
 ```
 
 
-
-
 ACKNOWLEDGEMENTS
 ---------------
+
 This work has received funding from the EU4Health Programme 2021-2027 as
 part of Europe’s Beating Cancer Plan under Grant Agreements nos. 101056995 and 101129375;
 and from the Government of Spain’s grant PID2021-122443OB-I00 funded by
 MCIN/AEI/10.13039/501100011033 and by “ERDF A way of making Europe” and
 grant PDC2022-133049-I00 funded by MCIN/AEI/10.13039/501100011033 and by
-the “European Union NextGenerationEU/PRTR”. The authors gratefully acknowledge
-the financial support of the Generalitat Valenciana under project IDIFEDER/2021/059.
+the “European Union NextGenerationEU/PRTR”.  
+The authors gratefully acknowledge the financial support of the Generalitat
+Valenciana under project IDIFEDER/2021/059.
+
+
+LEGAL DISCLAIMER
+----------------
+Speech and text data were provided by the [European School of Oncology](https://www.e-eso.net) under the European [INTERACT-EUROPE](https://www.europeancancer.org/eu-projects/impact/interact-europe) project.
+
