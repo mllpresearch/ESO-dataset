@@ -14,7 +14,7 @@ README CONTENTS
 - [Corpus structure and contents](#corpus-structure-and-contents)
 - [Acknowledgements](#acknowledgements)
 - [Legal disclaimers](#legal-disclaimers)
-- [Licence](#licence)
+<!--- - [Licence](#licence) --->
 <!--- - [Citation](#citation) Açò va baix d'Overview !!! --->
 <!--- - [Extended description](#extended-description) --->
 
