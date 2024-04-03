@@ -131,7 +131,7 @@ the European project
 The following disclamers are those available in the [e-ESO platform](https://www.e-eso.net)
 in April 3rd, 2024:
 
-####Content disclamer
+#### Content disclamer
 
 The content of the website is intended as an informational and
 educational tool. It is mainly designed for oncology professionals and
@@ -146,7 +146,7 @@ responsibility can be taken to whether the medical information is
 complete, exhaustive or accurate. Patients and the general public
 visiting the website should always seek professional medical advice.
 
-####Clinical Cases Disclaimer
+#### Clinical Cases Disclaimer
 
 The intent of the clinical cases discussions is exclusively
 educational and neither ESO nor the involved Experts and Discussants
@@ -162,7 +162,7 @@ presentations are not meant to provide medical advice and patients and
 the general public visiting the website should always seek
 professional medical advice.
 
-####Presentations property and disclaimer
+#### Presentations property and disclaimer
 
 The website contains presentations aimed at providing new knowledge
 and competences. These materials remain property of the authors or ESO
@@ -189,7 +189,7 @@ material as submitted. However, no responsibility is accepted for
 omissions. ESO does not endorse any opinions expressed in the
 presentations.
 
-####Subtitles and transcriptions
+#### Subtitles and transcriptions
 
 Subtitles and transcriptions are available for selected materials for
 the purpose of helping users understand the contents of the
@@ -205,7 +205,7 @@ sessions as recorded. However, no responsibility is accepted for
 mistakes or omissions. ESO does not endorse any opinions expressed in
 the presentations.
 
-####Website policy
+#### Website policy
 
 Indicated disclaimers, policies and terms apply to the e-ESO website
 and its users. ESO may decide at any time to amend these terms and
