@@ -117,11 +117,102 @@ and from the Government of Spain’s grant PID2021-122443OB-I00 funded by
 MCIN/AEI/10.13039/501100011033 and by “ERDF A way of making Europe” and
 grant PDC2022-133049-I00 funded by MCIN/AEI/10.13039/501100011033 and by
 the “European Union NextGenerationEU/PRTR”.  
-The authors gratefully acknowledge the financial support of the Generalitat
-Valenciana under project IDIFEDER/2021/059.
 
+The authors gratefully thank the [European School of Oncology](https://www.eso.net) 
+for the provision of this dataset in the framework of the European project 
+[Interact-Europe](https://www.europeancancer.org/eu-projects/impact/interact-europe). 
 
-LEGAL DISCLAIMER
-----------------
-Speech and text data were provided by the [European School of Oncology](https://www.e-eso.net) under the European [INTERACT-EUROPE](https://www.europeancancer.org/eu-projects/impact/interact-europe) project.
+LEGAL DISCLAMER
+---------------
+Speech and text data were provided by the [European School of Oncology
+(ESO)](https://www.eso.net) from its online platform [e-ESO](https://www.e-eso.net) under
+the European project
+[Interact-Europe](https://www.europeancancer.org/eu-projects/impact/interact-europe).
+The following disclamers are those available in the [e-ESO platform](https://www.e-eso.net)
+in April 3rd, 2024:
 
+####Content disclamer
+
+The content of the website is intended as an informational and
+educational tool. It is mainly designed for oncology professionals and
+other physicians interested in oncology. With the aim of disseminating
+information, the website will propose contents provided by
+third-parties. However, ESO has no responsibility to whether this
+content, or the content of linked websites, is accurate or complete.
+
+Even though the website includes scientific and medical
+information, it is not designed to provide medical advice and no
+responsibility can be taken to whether the medical information is
+complete, exhaustive or accurate. Patients and the general public
+visiting the website should always seek professional medical advice.
+
+####Clinical Cases Disclaimer
+
+The intent of the clinical cases discussions is exclusively
+educational and neither ESO nor the involved Experts and Discussants
+can take responsibility for individual treatment/management decisions
+nor that considerations were complete, exhaustive or accurate. The
+drugs and the medical interventions mentioned in the discussions are
+not the only therapeutic options, but simply reflect the personal
+choices of the presenter.
+
+ESO's intent is not to provide paradigms but to debate real issues in
+order to improve the level of its educational offer. The clinical case
+presentations are not meant to provide medical advice and patients and
+the general public visiting the website should always seek
+professional medical advice.
+
+####Presentations property and disclaimer
+
+The website contains presentations aimed at providing new knowledge
+and competences. These materials remain property of the authors or ESO
+respectively. Each author continues to retain the rights to reproduce
+the specific images and text which he/she provided. Users are granted
+permission to view and, if permitted by the author, to download the
+presentations. In any case, for any use other than personal, they must
+seek permission from ESO (Via Turati, 29 - Milan, Italy).
+
+Presentations from any single author or multiple authors may not be
+reproduced without the written consent of that author. In turn,
+authors are required to ascertain and respect the copyright property
+of the information they provide in their presentations and to include
+the source of such information.
+
+ESO is not responsible for any injury and/or damage to persons or
+property as a matter of a products liability, negligence or otherwise,
+or from any use or operation of any methods, products, instructions or
+ideas contained in the material published in these
+presentations. Because of the rapid advances in medical sciences, we
+recommend that independent verification of diagnoses and drugs dosages
+should be made. Every effort has been made to faithfully reproduce the
+material as submitted. However, no responsibility is accepted for
+omissions. ESO does not endorse any opinions expressed in the
+presentations.
+
+####Subtitles and transcriptions
+
+Subtitles and transcriptions are available for selected materials for
+the purpose of helping users understand the contents of the
+educational sessions.
+
+Uncertain words have been indicated with ?? before and after the part.
+
+Parts that could not be understood at all have been indicated as
+[Audio Not Clear].
+
+Every effort has been made to faithfully reproduce the audio of the
+sessions as recorded. However, no responsibility is accepted for
+mistakes or omissions. ESO does not endorse any opinions expressed in
+the presentations.
+
+####Website policy
+
+Indicated disclaimers, policies and terms apply to the e-ESO website
+and its users. ESO may decide at any time to amend these terms and
+post the modified document on the website. ESO will not be liable for
+any modification, suspension or termination of the service, or loss of
+related information. Users assume all risk for any damage to their
+computer system or loss of data that results from obtaining any
+content from the website, including any damages resulting from
+computer viruses. The content is provided on a 'as is', 'as available'
+and 'with all faults' basis.
