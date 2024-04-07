@@ -2,9 +2,9 @@
 ESO dataset v1.0  
 www.mllp.upv.es/eso-dataset
 
-A English-language speech corpus of the oncology domain for ASR training and benchmarking and MT benchmarking.
+An English-language speech corpus of the oncology domain for ASR training and benchmarking and MT benchmarking.
 
-Keywords: automatic speech recognition; speech corpus; speech data filtering; speech data verbatimization; streaming ASR.
+Keywords: automatic speech recognition; domain adaptation; large language models; machine translation; oncology; speech corpus; speech translation.
 
 README CONTENTS
 ---------------
@@ -27,9 +27,9 @@ The ESO dataset includes:
 #### Speech data
 
 <!--- * 287 hours of English-language manually transcribed speech data in the oncology domain. --->
-* 745 hours of English-language speech data in the oncology domain, of which 287 hours are manually transcribed data.
+* 745 hours of English-language speech data in the oncology domain, of which 287 hours include manual transcriptions.
 * 3 full sets of timed manual transcriptions.
-* Both, dev and test sets with temporally aligned manual translations.
+* Both dev and test sets with temporally aligned manual translations.
 
 
 <!--- CITATION
@@ -58,16 +58,16 @@ Both "dev" and "test" directories contain one subdirectory for each sample
 and a list containing the IDs of the samples of the set. Each sample directory contains
 the audio file, the slides and two subdirectories: the first one contains the transcription
 data, with the transcription in plain-text format, the aligned transcription in srt format,
-and the aligned transcription in srt format but sentence segmented. On the other hand, the
-manual_translation subdirectory contains un folder for each target language (de, es, fr, sl;
+and the aligned transcription in srt format but sentence-segmented. On the other hand, the
+manual_translation subdirectory contains a folder for each target language (de, es, fr, sl;
 according to ISO 639-1 standard), in which we can find the original manual translation,
-the source and target language files temporally aligned and the file with the timestamps
+the source and target language files temporally aligned, and the file with the timestamps
 for that language pair.
-The "train" directory contain one subdirectory for each sample and one list
+The "train" directory contains one subdirectory for each sample and one list
 for each subset of data as follows:
 * train_audios.lst: contains the IDs of the training samples.
 * train_slides.lst: contains the IDs of the samples with slides.
-* train_trans.lst: contains the IDs of the samples with the manual transcriptions.
+* train_trans.lst: contains the IDs of the samples with manual transcriptions.
 * trains_trans+slides.lst: contains the IDs of the samples with manual transcriptions and slides.
 
 Here we can see more completely the corpus structure, with additional
@@ -109,31 +109,32 @@ subdirectories:
 
 
 ACKNOWLEDGEMENTS
----------------
+----------------
 
 This work has received funding from the EU4Health Programme 2021-2027 as
-part of Europe’s Beating Cancer Plan under Grant Agreements nos. 101056995 and 101129375;
-and from the Government of Spain’s grant PID2021-122443OB-I00 funded by
-MCIN/AEI/10.13039/501100011033 and by “ERDF A way of making Europe” and
+part of Europe's Beating Cancer Plan under Grant Agreements nos. 101056995 and 101129375;
+and from the Government of Spain's grant PID2021-122443OB-I00 funded by
+MCIN/AEI/10.13039/501100011033 and by "ERDF A way of making Europe" and
 grant PDC2022-133049-I00 funded by MCIN/AEI/10.13039/501100011033 and by
-the “European Union NextGenerationEU/PRTR”.  
+the "European Union NextGenerationEU/PRTR".
 
 The authors gratefully thank the [European School of Oncology](https://www.eso.net) 
-for the provision of this dataset in the framework of the European project 
+for the provision of this dataset in the framework of the EU research project 
 [Interact-Europe](https://www.europeancancer.org/eu-projects/impact/interact-europe). 
 
-LEGAL DISCLAMER
+
+LEGAL DISCLAIMER
 ---------------
 Speech and text data were provided by the [European School of Oncology
 (ESO)](https://www.eso.net) from its online platform [e-ESO](https://www.e-eso.net) under
-the European project
+the EU research project
 [Interact-Europe](https://www.europeancancer.org/eu-projects/impact/interact-europe).
-The following disclamers are those available in the [e-ESO platform](https://www.e-eso.net)
-in April 3rd, 2024:
+The following disclaimers are those available in the [e-ESO platform](https://www.e-eso.net)
+on April 3rd, 2024:
 
-#### Content disclamer
+#### Content disclaimer
 
-The content of the website is intended as an informational and
+The content of the e-ESO website is intended as an informational and
 educational tool. It is mainly designed for oncology professionals and
 other physicians interested in oncology. With the aim of disseminating
 information, the website will propose contents provided by
@@ -146,11 +147,11 @@ responsibility can be taken to whether the medical information is
 complete, exhaustive or accurate. Patients and the general public
 visiting the website should always seek professional medical advice.
 
-#### Clinical Cases Disclaimer
+#### Clinical cases disclaimer
 
-The intent of the clinical cases discussions is exclusively
+The intent of the clinical case discussions is exclusively
 educational and neither ESO nor the involved Experts and Discussants
-can take responsibility for individual treatment/management decisions
+can take responsibility for individual treatment/management decisions,
 nor that considerations were complete, exhaustive or accurate. The
 drugs and the medical interventions mentioned in the discussions are
 not the only therapeutic options, but simply reflect the personal
@@ -158,7 +159,7 @@ choices of the presenter.
 
 ESO's intent is not to provide paradigms but to debate real issues in
 order to improve the level of its educational offer. The clinical case
-presentations are not meant to provide medical advice and patients and
+presentations are not meant to provide medical advice, and patients and
 the general public visiting the website should always seek
 professional medical advice.
 
