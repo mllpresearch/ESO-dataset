@@ -42,9 +42,9 @@ GET THE DATA
 
 Download the full ESO speech and text corpus from:
 
-https://www.mllp.upv.es/eso-dataset/eso_v1.0.tar.gz
+https://www.mllp.upv.es/eso-dataset/eso_v1.0.tar.gz  
 Size: 41 GiB  (compressed file)  
-SHA-256 checksum: d374d1c5f27ef80903681ce517d22db334f62d0db7dc79f0e587ae292a289787
+SHA-256 checksum: 24529aa4641cdc8b13f235f4fc2a295ab46e159fdaf846e561504ebacd498c6a
 
 
 CORPUS STRUCTURE AND CONTENTS
