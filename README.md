@@ -32,9 +32,28 @@ The ESO dataset includes:
 * Both dev and test sets with temporally aligned manual translations.
 
 
-<!--- CITATION
+CITATION
 --------
-[TBA] --->
+
+https://doi.org/10.1016/j.artmed.2025.103147
+```
+@article{Iranzo-Sánchez2025,
+title = {Speech Translation for Multilingual Medical Education Leveraged by Large Language Models},
+author = {Jorge Iranzo-Sánchez AND Jaume Santamaría-Jordà AND Gerard Mas-Mollà AND Garcés Díaz-Munío, Gonçal V. AND Javier Iranzo-Sánchez AND Javier Jorge AND Joan Albert Silvestre-Cerdà AND Adrià Giménez AND Jorge Civera AND Albert Sanchis AND Alfons Juan},
+doi = {10.1016/j.artmed.2025.103147},
+year = {2025},
+date = {2025-01-01},
+journal = {Artificial Intelligence In Medicine},
+volume = {166},
+pages = {103147},
+abstract = {The application of large language models (LLMs) to speech translation (ST), or in general, to machine translation (MT), has recently provided excellent results superseding conventional encoder-decoder MT systems in the general domain. However, this is not clearly the case when LLMs as MT systems are translating medical-related materials. In this respect, the provision of multilingual training materials for oncology professionals is a goal of the EU project Interact-Europe in which this work was framed. To this end, cross-language technology adapted to the oncology domain was developed, evaluated and deployed for multilingual interspeciality medical education. More precisely, automatic speech recognition (ASR) and MT models were adapted to the oncology domain to translate English pre-recorded training videos, kindly provided by the European School of Oncology (ESO), into French, Spanish, German and Slovene. In this work, three categories of MT models adapted to the medical domain were assessed: bilingual encoder-decoder MT models trained from scratch, pre-trained large multilingual encoder-decoder MT models and multilingual decoder-only LLMs. The experimental results underline the competitiveness in translation quality of LLMs compared to encoder-decoder MT models. Finally, the ESO speech dataset, comprising roughly 1,000 videos and 745 hours for the training and evaluation of ASR and MT models, was publicly released for the scientific community.},
+keywords = {Automatic Speech Recognition, domain adaptation, large language models, Machine Translation, oncology, Speech Translation},
+pubstate = {published},
+tppubtype = {article}
+}
+```
+
+
 
 
 GET THE DATA
